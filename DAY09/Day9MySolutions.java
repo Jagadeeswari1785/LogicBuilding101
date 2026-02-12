@@ -17,3 +17,39 @@ public static void main(String args[]){
     }
 }
 //
+import java.util.Scanner;
+class Hello{
+public static void main(String args[]){
+  Scanner sc=new Scanner(System.in);
+  int n=sc.nextInt();
+  
+  
+  
+  for(int i=0;i<=n;i++){
+    for(int j=0;j<i;j++){
+      System.out.print((char)('A'+j));
+    }
+    System.out.println();
+  } 
+    }
+}
+//
+import java.util.Scanner;
+class Hello{
+public static void main(String args[]){
+  Scanner sc=new Scanner(System.in);
+  int n=sc.nextInt();
+  int a=n;
+  
+  
+  
+  for(int i=0;i<n;i++){
+    for(int j=0;j<a;j++){
+      System.out.print((char)('A'+j));
+      
+    }
+    a--;
+    System.out.println();
+  } 
+    }
+}
